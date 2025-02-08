@@ -1,0 +1,116 @@
+body {
+    background-color: var(--main-background-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    max-height: 100vh;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+ul {
+    margin-bottom: 1.5rem;
+    color: var(--main-font-color);
+    text-align: center;
+    width: 80vw;
+    max-width: 800px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 0.5rem 0 0.5rem 0;
+    width: 80vw;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemName {
+    width: 60%;
+    text-align: left;
+}
+
+.deleteBtn {
+    color: var(--alt-font-color);
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border: 0.5px solid var(--border-color);
+    background-color: var(--alt-background-color);
+    border-radius: 15rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+    width: 80vw;
+}
+
+input {
+    border-radius: 15rem;
+    padding: 0.15rem;
+    height: 2rem;
+}
+
+#name {
+    width: 60%;
+    border: none;
+    padding-left: 0.5rem;
+    height: 2rem;
+    color: var(--alt-font-color);
+}
+
+#amount {
+    width: 15%;
+    border: none;
+    height: 2rem;
+    text-align: center;
+    margin: 0 0.15rem 0 0.15rem;
+    color: var(--alt-font-color);
+}
+
+#name::placeholder,
+#amount::placeholder {
+    color: var(--secondary-font-color);
+}
+
+.register {
+    width: 20%;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-font-color);
+    color: var(--secondary-background);
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; 
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}

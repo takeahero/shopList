@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --main-font-color: #FFFFFF;
+    --secondary-font-color: #D1D5DB;
+    --alt-font-color: #94979c;
+
+    --main-background-color: #121212;
+    --secondary-background-color: #1E1E1E;
+    --alt-background-color: #1d1d1df0;
+
+    --border-color: #2D2D2D; 
+}
