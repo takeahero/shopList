@@ -18,7 +18,7 @@ And using `export` and `import` functions to running the code as a modular appli
 
 
 ## Deploy
-The project is avaible [here](shop-list-ten.vercel.app).
+The project is avaible [here](https://shop-list-ten.vercel.app/).
 
 ## How to run locally
 Use live view extension if you use VSC.
